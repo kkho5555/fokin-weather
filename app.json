@@ -2,14 +2,11 @@
   "expo": {
     "name": "fokin-weather",
     "slug": "fokin-weather",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "android": { "package": "com.DoubleH.fokin_weather", "versionCode": 1 },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,11 +15,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.DoubleH.fokin-weather",
+      "buildNumber": "1.0.0"
+    },
+    "description": ""
   }
 }
